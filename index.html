@@ -1,0 +1,227 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="description" content="Academic homepage of Monowar Islam — research and projects in Machine Learning, Deep Learning, and Computer Vision."> <meta name="keywords" content="Monowar Islam, Computer Science, Machine Learning, Deep Learning, Computer Vision, Image Classification, Object Detection, Bangladesh"> <meta name="author" content="Monowar Islam"> <meta property="og:title" content="Monowar Islam - Academic Homepage"> <meta property="og:description" content="Machine Learning, Deep Learning, Computer Vision, Image Classification, Object Detection, and Research."> <meta property="og:type" content="website"> <meta property="og:url" content="#"> <meta name="twitter:card" content="summary"> <title>Monowar Islam</title> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <link rel="stylesheet" href="styles.css"> </head>
+<body id="top">
+    <header>
+    <div class="header-content">
+        <h1>Monowar Islam</h1>
+        <p>CSE Undergraduate • University of Dhaka</p>
+        <p class="header-tagline">Machine Learning · Deep Learning · Computer Vision · NLP · LLMs</p>
+        <div class="social-links-header">
+            <a href="https://scholar.google.com/citations?user=hGRMCpAAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i>Google Scholar</a>
+            <a href="https://github.com/monowarcs"><i class="fab fa-github"></i>GitHub</a>
+            <a href="https://linkedin.com/in/monowarcse"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            <a href="https://drive.google.com/file/d/1XIDrnXDlnPqRVADB2jngCmpIxRIHniWv/view?usp=drive_link"><i class="fas fa-file-pdf"></i>CV</a>
+            <a href="https://www.youtube.com/watch?v=4jiI9Z_kMJU"><i class="fas fa-video"></i>Video CV</a>
+            <a href="mailto:monowar.1002@fec.edu.bd"><i class="fas fa-envelope"></i>Email</a>
+        </div>
+    </div>
+    <div class="header-image">
+        <img src="images/profile.jpg" alt="Monowar Islam Profile Photo">
+    </div>
+</header>
+
+    <nav class="section-nav">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#services">Leadership</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+        
+            <p>I am an undergraduate researcher in the Computer Science &amp; Engineering department at the <a href="https://www.du.ac.bd/">University of Dhaka</a>. I am advised by <a href="https://fec.ac.bd/pages/static-pages/6922e091933eb65569e279d5">Md. Shamsul Islam</a>. I am seeking a PhD degree where I would become a leader in the NLP research community, working on the development of robust and transparent NLP/LLM systems for the diverse global community. I intend to carry out research in multilingual transfer learning, stance and sentiment analysis, as well as applied deep learning for social good, particularly for <strong>low-resource languages</strong> like Bangla.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="edu-item">
+                <div class="edu-header">
+                    <span class="edu-degree">BSc in Computer Science &amp; Engineering</span>
+                    <span class="edu-year">2022 – Present</span>
+                </div>
+                <div class="edu-school">University of Dhaka, Dhaka, Bangladesh</div>
+                <p>CGPA: 3.46/4.00 (through 7th semester)</p>
+                <p><em>Relevant coursework:</em> Natural Language Processing, Machine Learning, Deep Learning, Data Structures &amp; Algorithms, Probability &amp; Statistics, Artificial Intelligence</p>
+                <p><em>Thesis:</em> Deep Learning-Based Building Segmentation and Semantic Land-Cover Mapping from High-Resolution Satellite Imagery Using Advanced Computer Vision and Semantic Segmentation Techniques, supervised by Md. Shamsul Islam)</p>
+            </div>
+        </section>
+
+        
+<section id="research">
+    <h2>Research</h2>
+    <p>My research focuses on <strong>Machine Learning, Deep Learning, and Computer Vision</strong>, with an emphasis on developing robust and practical AI systems for real-world applications. Current and recent research threads include:</p>
+    <ul>
+        <li><strong>Deep learning-based Bangladeshi mango variety classification</strong> using EfficientNetB0, achieving 98.01% accuracy and deployed as a real-time web-based prediction system (<a href="#">JBAS'26</a>)</li>
+        <li><strong>Building segmentation and semantic land-cover mapping from high-resolution satellite imagery</strong> using advanced deep learning-based semantic segmentation techniques (undergraduate thesis)</li>
+        <li><strong>Road scene object detection in dense urban environments</strong> using an improved YOLOv8-based architecture, specifically optimized for real-world Dhaka city traffic scenarios</li>
+        <li><strong>Transfer learning and deep learning for computer vision</strong>, focusing on image classification, object detection, data augmentation, model evaluation, and deployment of practical AI applications</li>
+    </ul>
+</section>
+
+
+        <section id="publications">
+            <div class="publications-header">
+                <h2 id="toggle-header">Selected Publications</h2>
+                <button id="toggle-publications" class="toggle-publications">Show All</button>
+            </div>
+            <div id="publications-container">
+                <!-- Publications will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="projects">
+    <h2>Selected Projects</h2>
+
+    <div class="project-item">
+        <div class="project-title">Bangladeshi Mango Variety Classifier</div>
+        <div class="project-stack">Deep Learning, EfficientNetB0, Streamlit</div>
+        <p>A deep learning-based mango classification system for identifying Bangladeshi mango varieties from images, achieving 98.01% accuracy and enabling real-time prediction through a web-based interface.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Building Segmentation and Semantic Land-Cover Mapping</div>
+        <div class="project-stack">Deep Learning, Semantic Segmentation, PyTorch, Computer Vision</div>
+        <p>Developing a deep learning-based semantic segmentation system for building extraction and land-cover mapping from high-resolution satellite imagery, covering buildings, roads, vegetation, water bodies, paddy fields, and open land.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Road Scene Object Detection — Improved YOLO</div>
+        <div class="project-stack">YOLOv8, Computer Vision, OpenCV, Deep Learning</div>
+        <p>A robust multi-class road scene object detection system using an improved YOLO-based architecture, designed for dense and high-occlusion urban traffic scenarios using real-world Dhaka city road scenes.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">E-Book Subscription Platform</div>
+        <div class="project-stack">Django, Python, SQLite, Stripe</div>
+        <p>A subscription-based eBook platform with Stripe payment integration that allows users to subscribe, access, and read books online through a web-based interface.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Wireless Notice Board using GSM</div>
+        <div class="project-stack">Arduino IDE, Proteus, GSM</div>
+        <p>A GSM-based wireless notice board that enables real-time message display through SMS, allowing remote updates without requiring manual interaction with the display system.</p>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">Smart Dustbin</div>
+        <div class="project-stack">Arduino IDE, Proteus, Ultrasonic Sensor, Servo Motor</div>
+        <p>An Arduino-based smart dustbin that automatically opens its lid when a user is detected nearby using an ultrasonic sensor and servo motor.</p>
+    </div>
+</section>
+
+        <section id="news">
+            <h2>News</h2>
+            <div class="news-container">
+                <ul class="news-list">
+                    <li>2026: Paper accepted at ECCT 2026</li>
+                    <li>2026: Paper published in the Journal of Bangladesh Academy of Science, Vol. 50</li>
+                    <li>2026: Paper on ideological stance detection submitted to IEEE SPICSCON 2026</li>
+                    <li>2026: Selected as a Research Assistant, Department of Computer Science &amp; Engineering, Faridpur Engineering College</li>
+<li>2025: Started undergraduate thesis on <strong>Deep Learning-Based Building Segmentation and Semantic Land-Cover Mapping from High-Resolution Satellite Imagery</strong></li>
+<li>2025: Became Lead, FEC Road to Higher Education</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="awards">
+            <h2>Awards</h2>
+            <div class="award-item">
+    <span class="award-year">2026</span>
+    <div class="award-desc">Published research in the Journal of Bangladesh Academy of Sciences — Deep Learning-Powered Bangladeshi Mango Variety Identification</div>
+</div>
+
+<div class="award-item">
+    <span class="award-year">2025</span>
+    <div class="award-desc">Participant, CUET CSE Fest Datathon 2025 — Slang Meme Image Classification using Deep Learning</div>
+</div>
+
+<div class="award-item">
+    <span class="award-year">2025</span>
+    <div class="award-desc">Participant, ICPC Asia Dhaka Regional Site Online Preliminary Contest</div>
+</div>
+
+<div class="award-item">
+    <span class="award-year">2021</span>
+    <div class="award-desc">Participant, ICPC Asia Dhaka Regional Site Online Preliminary Contest</div>
+</div>
+        </section>
+
+        <section id="services">
+            <h2>Leadership, Mentorship &amp; Community Engagement</h2>
+            <div class="service-category">
+    <div class="service-title">Research Assistant, Department of Computer Science &amp; Engineering, Faridpur Engineering College (2026–Present)</div>
+    <p>Contributing to research activities in <strong>Machine Learning, Deep Learning, and Computer Vision</strong>, with a focus on semantic segmentation, image classification, object detection, and practical AI applications.</p>
+</div>
+
+<div class="service-category">
+    <div class="service-title">Lead, FEC Road to Higher Education (2026–Present)</div>
+    <p>Leading initiatives focused on higher education opportunities, study abroad guidance, scholarship information, application preparation, and academic development for students of Faridpur Engineering College.</p>
+</div>
+
+<div class="service-category">
+    <div class="service-title">Research &amp; Academic Development</div>
+    <p>Engaged in undergraduate research on <strong>Deep Learning-Based Building Segmentation and Semantic Land-Cover Mapping from High-Resolution Satellite Imagery</strong>, while exploring advanced deep learning and computer vision techniques for real-world applications.</p>
+</div>
+
+<div class="service-category">
+    <div class="service-title">Competitive Programming &amp; Problem Solving</div>
+    <p>Solved <strong>400+ programming problems</strong> across CodeChef, Codeforces, LeetCode, and Beecrowd, strengthening algorithmic problem-solving and computational thinking skills.</p>
+</div>
+
+
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="service-category">
+    <div class="service-title">Machine Learning / Deep Learning</div>
+    <p>PyTorch, TensorFlow, Keras, CNN, Transfer Learning, Data Augmentation, Model Evaluation</p>
+</div>
+
+<div class="service-category">
+    <div class="service-title">Computer Vision</div>
+    <p>Image Classification, Object Detection, Semantic Segmentation, YOLOv8, OpenCV, EfficientNetB0</p>
+</div>
+
+<div class="service-category">
+    <div class="service-title">Programming Languages</div>
+    <p>Python, C++, Java, C</p>
+</div>
+
+<div class="service-category">
+    <div class="service-title">Tools &amp; Platforms</div>
+    <p>Git, VS Code, Google Colab, Kaggle, Streamlit, Arduino IDE, Proteus</p>
+</div>
+
+<div class="service-category">
+    <div class="service-title">Web Development &amp; Backend</div>
+    <p>Django, Python, SQLite, MySQL, Stripe</p>
+</div>
+        </section>
+
+        <section id="miscellaneous">
+            <h2>Miscellaneous</h2>
+            <div class="misc-item">
+                <p>Outside of research, I enjoy mentoring juniors in competitive programming and organizing coding bootcamps and hackathons.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Last updated: July 2026. Design and source code from <a href="https://cs.stanford.edu/~yuhuiz/">Yuhui Zhang's website</a>.</p>
+        <a href="#top" class="back-to-top">Back to top ↑</a>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
